@@ -1,4 +1,6 @@
-from dycw_template import __version__
+from __future__ import annotations
+
+from learning_redis import __version__
 
 
 def test_main() -> None:

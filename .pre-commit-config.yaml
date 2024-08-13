@@ -10,7 +10,7 @@ repos:
   - repo: https://github.com/dycw/pre-commit-hooks
     rev: 0.9.16
     hooks:
-      # - id: run-hatch-version
+      - id: run-hatch-version
       - id: run-ruff-format
       - id: run-uv-pip-compile
         args: [--python-version=3.12]
