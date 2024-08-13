@@ -142,6 +142,7 @@ jupyter-server==2.14.2
     # via
     #   jupyter-lsp
     #   jupyterlab
+    #   jupyterlab-code-formatter
     #   jupyterlab-server
     #   notebook-shim
 jupyter-server-terminals==0.5.3
@@ -150,6 +151,8 @@ jupyterlab==4.2.4
     # via
     #   learning-redis (pyproject.toml)
     #   jupyterlab-vim
+jupyterlab-code-formatter==3.0.1
+    # via learning-redis (pyproject.toml)
 jupyterlab-pygments==0.3.0
     # via nbconvert
 jupyterlab-server==2.27.3
@@ -198,6 +201,7 @@ packaging==24.1
     #   ipykernel
     #   jupyter-server
     #   jupyterlab
+    #   jupyterlab-code-formatter
     #   jupyterlab-server
     #   nbconvert
     #   pytest
